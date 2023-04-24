@@ -1,4 +1,4 @@
-# kill process killmenow
+# manifest a call that kill process killmenow
 
 exec { 'pkill':
   command  => 'pkill killmenow',
