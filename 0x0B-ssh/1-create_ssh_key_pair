@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Creates RSA key pair.Requirements name created private key must be 'school', number of bits in the created key to be created 4096, key created must be protected bt the passphrase 'betty'
+# Creates RSA key pair
 
 ssh-keygen -b 4096 -f school -t rsa -N betty
