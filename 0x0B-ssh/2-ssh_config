@@ -1,4 +1,4 @@
-# ssh config file
+# ssh config file for the local ssh client, lets configure it to our needs so that you can connect to the servers without typing a password
 Host *
       PasswordAuthentication no
       IdentifyFile ~/.ssh/school

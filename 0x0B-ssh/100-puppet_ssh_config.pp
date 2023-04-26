@@ -1,4 +1,6 @@
-# Seting up my client config file
+# Seting up my client config file. Requirements, your SSH client configuration must be configured to use the private key -/.ssh/school
+#SSH client configuration must be configures to refuse to authenticate using a password
+
 include stdlib
 
 file_line { 'Turn off passwd auth':
