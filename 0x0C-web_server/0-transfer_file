@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
+# This is bash script that transfers file from our client to the server.
 # Transfers a file from Holberton's client to another.
-# Accepts four arguments:
-#+    The path to the file to be transferred.
-#+    The IP of the server to transfer the file to.
-#+    The username that scp connects with.
-#+    The path to the SSH private key that scp uses.
+# Accepts four arguments
+#1.The path to the file to be transferred.
+#2.The IP of the server to transfer the file to.
+#3.The username that scp connects with.
+#4.The path to the SSH private key that scp uses.
 
 if [ $# -lt 4 ]
 then
